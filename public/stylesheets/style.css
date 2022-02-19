@@ -1,8 +1,29 @@
 body {
-  padding: 50px;
+  padding: 0px;
+  margin: 0px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+
 a {
   color: #00B7FF;
+}
+
+#homepage-container > div {
+  position:relative;
+  left: 60%;
+  bottom: 60em ;
+}
+
+h1{
+  font-size: 7em;
+  color: white;
+}
+
+div >  a{
+  padding: 1em;
+  background-color: white;
+  text-decoration: none;
+  color: #00B7FF;
+  border-radius: 2em;
 }

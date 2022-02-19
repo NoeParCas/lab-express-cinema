@@ -95,6 +95,8 @@ const movies = [
   })
   .then((response)=>{
       console.log("PELIS OK")
+         // hacer la desconexion
+         mongoose.connection.close()
   })
   .catch((err) =>{
       console.log("ERROR")
