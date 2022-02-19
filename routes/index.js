@@ -20,4 +20,17 @@ router.get('/movies', (req, res, next) =>{
     })
     })
 
+ /* Movie detail */   
+ router.get('/movies/:id', (req, res, next) =>{
+     //acceder a cada peli
+     Movie.findById(req.params.id)
+     .then((response) => {
+         res.render("movie-details.hbs", {response})
+         console.log(response)
+     })
+     .catch((err) => {
+         next(err)
+     })
+ })
+
 module.exports = router;

@@ -7,6 +7,9 @@ const movieSchema = new mongoose.Schema({
     director: {
         type: String,
     },
+    stars: {
+        type: [String],
+    },
     image: {
         type: String,
     },
