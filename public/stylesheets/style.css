@@ -12,7 +12,12 @@ a {
 #homepage-container > div {
   position:relative;
   left: 60%;
-  bottom: 60em ;
+  bottom: 80em ;
+}
+
+#homepage-container > img {
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1{
